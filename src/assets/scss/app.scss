@@ -1,0 +1,12 @@
+@import 'settings';
+@import 'foundation';
+
+.container.no-color {
+	background-color: transparent;
+}
+
+table.body img.wd-icon {
+	@media only screen and (max-width: #{$global-breakpoint}) {
+		height: 60px !important;
+	}
+}
